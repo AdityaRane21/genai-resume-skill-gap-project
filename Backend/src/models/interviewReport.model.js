@@ -1,4 +1,12 @@
 const mongoose = require('mongoose');
+// in this schema we have 
+// job description 
+// resume text 
+// self description
+
+// with help of ai we will be generating
+// technical questions and behavioral questions based on the job description and resume
+// skill gaps and preparation plan based on the job description and resume and self description
 
 
 const technicalQuestionSchema = new mongoose.Schema({
